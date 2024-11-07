@@ -1,0 +1,4 @@
+INSERT INTO Backup_Produtos (id_produto, nome, preco, categoria)
+SELECT id_produto, nome, preco, categoria
+FROM Produtos
+WHERE status = 'Ativo';
