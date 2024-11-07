@@ -1,0 +1,4 @@
+INSERT INTO Clientes_Marketing (id_cliente, nome, email)
+SELECT id_cliente, nome, email
+FROM Clientes
+WHERE status = 'Inativo';
