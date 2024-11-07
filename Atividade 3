@@ -1,0 +1,4 @@
+INSERT INTO Empregados_Treinamento (id_empregado, nome, salario)
+SELECT id_empregado, nome, salario
+FROM Empregados
+WHERE departamento = 'Vendas';
