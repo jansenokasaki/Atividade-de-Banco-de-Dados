@@ -1,0 +1,4 @@
+INSERT INTO Historico_Vendas (id_venda, produto, valor, data_venda)
+SELECT id_venda, produto, valor, data_venda
+FROM Vendas
+WHERE YEAR(data_venda) = 2023;
